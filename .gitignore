@@ -1,0 +1,7 @@
+*~
+*.so
+*.c
+*.pyc
+*.html
+
+*/build
