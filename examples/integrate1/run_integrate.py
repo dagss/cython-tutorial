@@ -3,7 +3,7 @@ import time
 
 import integrate
 
-outer_repeats = 10
+outer_repeats = 2
 inner_repeats = 500
 n = 10000
 
@@ -18,5 +18,5 @@ for i in range(outer_repeats):
 dt_min = np.min(dt_list) # min
 print '%.2f us' % (dt_min * 1e6)
 
-
-print integrate.integrate_f(0, 1, 10)
+# Uncomment to raise exceptionxs
+#print integrate.integrate_f(0, 1, 10)
