@@ -3,5 +3,15 @@
 *.c
 *.pyc
 *.html
+*.o
+
+*.nav
+*.log
+*.aux
+*.out
+*.pdf
+*.snm
+*.toc
+
 
 */build
